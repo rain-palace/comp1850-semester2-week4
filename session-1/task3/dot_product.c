@@ -3,11 +3,11 @@
  * Dot product of 2 vectors
  */
 
- #include <stdio.h>
+#include <stdio.h>
 
- int main( void ) {
-    int n = 5;
-    float *a, *b, *d;  // stack-based pointers
+int main( void ){
+   int n = 5;
+   float *a, *b, *d;  // stack-based pointers
 
     // allocation of heap memory for vectors
     a = calloc( n, sizeof(float) );
@@ -22,11 +22,14 @@
     Store your answer in d
     print your final answer
     */
+   for(int k=0; k<n; ++k){
+      ;
+   }
 
     // explicit deallocation of heap memory before exit */
     free(a);
     free(b);
     free(d);
 
-    return 0;
- }
+   return 0;
+}
